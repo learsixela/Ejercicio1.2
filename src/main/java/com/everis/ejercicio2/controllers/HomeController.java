@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	
 	/*para detectar rutas o url */
-	@RequestMapping("/")
+	/*@RequestMapping("/")
 	public String hola() {
 		return "Hello World!";
-	}
+	}*/
 	
 	@RequestMapping("/chao")
 	public String chao() {
